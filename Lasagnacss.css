@@ -1,0 +1,45 @@
+
+.sec1{
+
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+label {
+    text-align: center;
+    margin: 10px 0;
+}
+input, button {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    width: 320px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+button {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.error {
+    color: red;
+}

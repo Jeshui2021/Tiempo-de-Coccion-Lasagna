@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Lasagnacss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasagna</title>
+</head>
+<body>
+
+    <script src="lasagnajs.js"></script>
+
+    <h1>Medidor  de Tiempo para Preparar Lasaña</h1>
+ <section class="sec1">
+    <label for="capas">Número de capas de lasaña:</label>
+    <input type="number" id="capas" placeholder="Escribe el numero de capas" min="1">
+    <br>
+    <label for="horno">Tiempo en el horno :</label>
+    
+    <input type="number" id="horno" placeholder="Escribe el tiempo en el horno" min="0">
+    <br>
+
+    <button onclick="calcularTiempo()">Calcular Tiempo</button>
+
+    <div class="result" id="result"></div>
+</section>
+    
+    
+    
+</body>
+</html>
